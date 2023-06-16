@@ -1,0 +1,62 @@
+@import url("./profile.css");
+@import url("./address.css");
+@import url("./buttons.css");
+@import url("../font/quicksand/stylesheet.css");
+
+@font-face {
+    font-family: "neua-machine";
+    src: url("../font/neue-machina-regular.otf");
+}
+
+body {
+    font-family: "quicksandlight", sans-serif;
+    background-color: #405A83;
+    background-image: url("../img/mymind-3dmu0gu23uc-unsplash.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 20px;
+    max-width: 700px;
+    margin: auto auto;
+    background-color: white;
+    border-radius: 10px;
+    min-height: 100vh;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+address {
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
