@@ -1,5 +1,4 @@
 @import url("./profile.css");
-@import url("./address.css");
 @import url("./buttons.css");
 @import url("../font/quicksand/stylesheet.css");
 
@@ -10,7 +9,6 @@
 
 body {
     font-family: "quicksandlight", sans-serif;
-    background-color: #405A83;
     background-image: url("../img/mymind-3dmu0gu23uc-unsplash.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;

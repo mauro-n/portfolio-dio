@@ -1,12 +1,10 @@
-const container = document.querySelector(".itemContainer");
-const items = Array.of(...container.children);
+import Dropdown from "./Dropdown.js";
+import ContentUpdater from "./ContentUpdater.js"
 
-items.forEach(element => {
-    element.querySelector("*").addEventListener("click", () => {
-        if (element.classList.contains("open")) {
-            element.classList.remove("open");
-        } else {
-            element.classList.add("open")
-        }
-    })
+Dropdown.mount();
+
+ContentUpdater.setData()
+.then(() => {
+    ContentUpdater.update();
 })
+

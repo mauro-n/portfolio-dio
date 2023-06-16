@@ -15,23 +15,25 @@
     box-shadow: -5px 9px 11px -3px rgba(69, 1, 1, 0.208);
 }
 
-.item.open, .item.open > .item-content {
+.item.open,
+.item.open>.item-content {
     background-color: #405A83;
     height: auto;
     opacity: 1;
     margin-top: 15px;
 }
 
-.item:hover, .item:hover > .item-header > button {
+.item:hover,
+.item:hover>.item-header>button {
     background-color: #405A83;
     color: white;
 }
 
-.item.open .item-header > button {
+.item.open .item-header>button {
     color: white;
 }
 
-.item.open > .item-header .arrow-top {
+.item.open>.item-header .arrow-top {
     transform: rotate(180deg);
     filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(60deg) brightness(104%) contrast(101%);
 }
@@ -73,20 +75,17 @@
     margin: 10px;
 }
 
-.item-content > li {
+.item-content>li {
     margin: 0 1em;
 }
 
 .item-portfolio {
-    margin: 10px 0;
+    margin-bottom: 10px;
 }
 
-.item-portfolio > a {
+.item-portfolio>a {
     color: white;
-    font-size: 1rem;   
-}
-.item-portfolio > div {
-    padding: 5px 0;
+    font-size: 1rem;
 }
 
 .dio-logo {
@@ -98,4 +97,3 @@
     max-height: 1.7em;
     margin: 10px 0;
 }
-
