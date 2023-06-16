@@ -4,4 +4,4 @@ da linguagem de programação JavaScript;
  - Projeto com conteúdo dinâmico hospedado no github;
 
 ## url:
- - https://github.com/mauro-n/portfolio-dio/deployments/activity_log?environment=github-pages
+ - https://mauro-n.github.io/portfolio-dio/
